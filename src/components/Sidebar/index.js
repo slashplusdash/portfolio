@@ -4,6 +4,7 @@ import logoS from '../../assets/images/logo-s.png'
 import logoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faGoogle, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
     <div className='nav-bar'>
@@ -22,6 +23,34 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/romeo-reforma-a6b247279/">
+                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href="https://github.com/slashplusdash">
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href="https://www.youtube.com/channel/UCJ941RjVyO4s9-h0EfsBhgg">
+                    <FontAwesomeIcon icon={faYoutube} color="#4d4d4e"/>
+                </a>
+            </li>
+            <li>
+                <a
+                    target="_blank"
+                    rel='noreferrer'
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=rreforma39@gmail.com"
+                >
+                    <FontAwesomeIcon icon={faGoogle} color="#4d4d4e"/>
+                </a>
+
+            </li>
+            
+        </ul>
     </div>
 )
 
